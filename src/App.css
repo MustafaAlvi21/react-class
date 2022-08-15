@@ -1,7 +1,8 @@
 .bg{
   background-image: url('./bg.jpeg');
-  height: 100vh;
   width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
 }
 .p1{
   display: flex;
@@ -34,3 +35,42 @@
   padding: 10px 20px;
 }
 
+.card{
+  /* width: 300px; */
+  min-height: 250px; 
+  border: 1px solid gray;
+  width: 230px;
+  background-color: linen;
+  margin: 10px 10px  0px 10px;
+
+}
+
+.cardImg {
+  display: flex;
+  justify-content: center;
+
+}
+
+.cardImg img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.albumId{
+  color: black;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+.id{
+  color: black;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+.title{
+  color: black;
+  font-weight: 600;
+  padding: 10px 20px;
+}
