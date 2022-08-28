@@ -6,9 +6,6 @@ import Web3 from "web3";
 // Infura
 import { create } from 'ipfs-http-client';
 
-var projectId = "1uIYCJAlVi1s5Z9H4OIGIll2tff"
-var projectSecret = "a673a22b8a9dc20923e9b671583cc08a"
-const auth = 'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
 
 
 // Component
